@@ -1,0 +1,74 @@
+{
+    "defaultTimeout": 3.0,
+    "lastDateRan": "2021-05-11",
+    "_comment1": "All aliases must be in lower-case",
+    "carriersAliases": [
+        "carrier",
+        "carriers"
+    ],
+    "trackingNumberAliases": [
+        "trackingnumber"
+    ],
+    "serviceAliases": [
+        "service",
+        "ship service",
+        "Service Code Description"
+    ],
+    "USPSSettings": {
+        "enabled": true,
+        "host": "https://secure.shippingapis.com/ShippingAPI.dll?API=TrackV2&XML=",
+        "userID": "036STALC1273",
+        "carriers": [
+            "EHub",
+            "EHUB"
+        ],
+        "APICallCount": 0,
+        "APICallDailyRateLimit": 1000000,
+        "APICallDelay": 0.0
+    },
+    "DHLSettings": {
+        "enabled": true,
+        "host": "https://api-eu.dhl.com/track/shipments?",
+        "APIKey": "cLlAKSE8Ybna2qhoU3VieHufBOKSThUz",
+        "carriers": [
+            "DHL eCommerce",
+            "DHL eCOM v4",
+            "DHLGLOBALMAILV4"
+        ],
+        "APICallCount": 3,
+        "APICallDailyRateLimit": 250,
+        "APICallDelay": 60.0
+    },
+    "CanadaPostSettings": {
+        "enabled": true,
+        "host": "https://soa-gw.canadapost.ca/vis/track/pin/",
+        "APIAuthKey": "aa9511bcb969ec29 : f10c7be467f008dbbaf6af",
+        "carriers": [
+            "Canada Post",
+            "CANADAPOST"
+        ],
+        "APICallCount": 166,
+        "APICallDailyRateLimit": 1000000,
+        "APICallDelay": 3.0
+    },
+    "FedExSettings": {
+        "enabled": true,
+        "carriers": [
+            "FedEx"
+        ],
+        "APICallCount": 0
+    },
+    "UPSSettings": {
+        "enabled": true,
+        "host": "https://onlinetools.ups.com/track/v1/details/",
+        "accessLicenseNumber": "5D976EED35F8C5B2",
+        "_userID": "9V62Y7",
+        "_password": "TopGun11",
+        "carriers": [
+            "UPS"
+        ],
+        "APICallCount": 0,
+        "APICallDailyRateLimit": 1000000,
+        "APICallDelay": 0.0
+    }
+}
